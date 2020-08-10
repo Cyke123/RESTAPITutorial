@@ -103,7 +103,7 @@ public class AutomateUserValidation {
 		
 		  int expectedStatusCode = Integer.parseInt(expectedResult.get("StatusCode"));
 		  int actualStatusCode = response.getStatusCode();
-		  Assert.assertEquals(actualStatusCode, expectedStatusCode,"FAIL:Request not successfull");
+		  Assert.assertEquals(actualStatusCode, expectedStatusCode,"FAIL:Request not successful");
 		  
 		  for (int i=0; i<numOfRecords.size();i++) {
 			     int id = jsonpath.get("data.id[i]");
