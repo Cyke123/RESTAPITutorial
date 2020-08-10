@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="UserCreationURI" value="https://reqres.in/api/users"/>
+  <parameter name="Content-Type" value="application/json"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Suite1.AutomateUserCreationAndValidation">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="getUserList"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.Suite1.AutomateUserCreationAndValidation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

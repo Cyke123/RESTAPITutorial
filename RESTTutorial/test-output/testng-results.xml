@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-10T17:21:25Z" name="Default suite" finished-at="2020-08-10T17:21:38Z" duration-ms="12949">
+    <groups>
+    </groups>
+    <test started-at="2020-08-10T17:21:25Z" name="Default test" finished-at="2020-08-10T17:21:38Z" duration-ms="12949">
+      <class name="com.Suite1.AutomateUserValidation">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.Suite1.AutomateUserValidation@5906ebcb]" started-at="2020-08-10T22:51:25Z" name="beforeClass" finished-at="2020-08-10T22:51:25Z" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://reqres.in/api/users]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="getUserList(java.lang.String)[pri:0, instance:com.Suite1.AutomateUserValidation@5906ebcb]" started-at="2020-08-10T22:51:28Z" name="getUserList" data-provider="getUserListInput" finished-at="2020-08-10T22:51:37Z" duration-ms="8644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TEST CASE 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserList -->
+        <test-method signature="getUser(java.lang.String, java.lang.String)[pri:1, instance:com.Suite1.AutomateUserValidation@5906ebcb]" started-at="2020-08-10T22:51:37Z" name="getUser" data-provider="getUserInput" finished-at="2020-08-10T22:51:38Z" duration-ms="329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TEST CASE 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="getUser(java.lang.String, java.lang.String)[pri:1, instance:com.Suite1.AutomateUserValidation@5906ebcb]" started-at="2020-08-10T22:51:38Z" name="getUser" data-provider="getUserInput" finished-at="2020-08-10T22:51:38Z" duration-ms="814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TEST CASE 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Suite1.AutomateUserValidation@5906ebcb]" started-at="2020-08-10T22:51:38Z" name="afterClass" finished-at="2020-08-10T22:51:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.Suite1.AutomateUserValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
