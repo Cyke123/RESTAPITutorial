@@ -18,7 +18,7 @@ public class SampleGETRequest3 {
 		httpRequest.pathParam("userId", 2);
 		Response response = httpRequest.get(uri);
 		
-		System.out.println(response.getBody().asString());
+		System.out.println("Response: " + response.getBody().asString());
 		
 	}
 
